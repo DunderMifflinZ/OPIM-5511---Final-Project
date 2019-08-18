@@ -173,3 +173,5 @@ PROC LIFEREG DATA=TEAM5.Project2;
 	MODEL YearsAtCompany*Type(0, 2, 3, 4) = Gender Age DistanceFromHome JobLevel OverTime MaritalStatus 
 						   WorkLifeBalance YearsInCurrentRole HourlyRate RelationshipSatisfaction 
 						   MonthlyIncome EduLevel/distribution=gamma;
+						   
+/*This is just a test*/
